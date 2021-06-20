@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+	.navigation {
+		display: none;
+	}
+	.burger-bar {
+		display: block;
+	}
+}
+
+@media (max-width: 757px) {
+	.block1:nth-child(4),
+	.block1:nth-child(5){
+		margin-bottom: 60px;
+	}
+	.block1 {
+		width: 47%;
+	}
+	.main-block {
+		/*justify-content: center;*/
+	}
+}
+
+@media (max-width:480px) {
+	.block1 {
+		width: 100%;
+	}
+}
